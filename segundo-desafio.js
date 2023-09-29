@@ -5,6 +5,12 @@ const gastoMedioPorKm = 100
 const distanciaViagem = 300
 
 const gastoMedioCombustivel = gastoMedioPorKm / distanciaViagem
-const custoViagem = gastoMedioCombustivel * combustivelCarro
 
-console.log('o valor gasto da viagem será:', custoViagem.toFixed(2));
+if (combustivelCarro === gasolina) {
+    const custoViagem = gastoMedioCombustivel * gasolina
+    console.log(custoViagem);
+} else {
+    const custoViagem = gastoMedioCombustivel * etanol
+    console.log(custoViagem);
+}
+
