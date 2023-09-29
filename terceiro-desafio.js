@@ -1,10 +1,12 @@
-let notas = {
-    Joao: [10, 30, 20],
-    Maria: [10, 50, 60],
-    Pedro: [10, 5, 3]
-}
+// let notas = {
+//     Joao: [10, 30, 20],
+//     Maria: [10, 50, 60],
+//     Pedro: [10, 5, 3]
+// }
 
-const media = (notas.Joao[0] + notas.Joao[1] + notas.Joao[2]) / 5
+const notas = [10, 40, 50]
+
+const media = (notas[0] + notas[1] + notas[2]) / 5
 
 if (media < 5 ) {
     console.log("Você foi reprovado")
